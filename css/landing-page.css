@@ -1,0 +1,107 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+  body {
+    text-align: center;
+    align-items: center;
+    background: url("../images/adobestockfarmers.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+    text-shadow: 3px 1px 7px #000000;
+    height: 100%;
+    width: 100;
+  }
+
+  .logo {
+    color: white;
+    width: 100%;
+  }
+
+  .logo h1 {
+    padding-top: 20px;
+    padding-right: 80%;
+    font-size: 2.5em;
+  }
+
+  .titlebox {
+    top: 7em;
+    color: white;
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+  }
+
+  .title h1 {
+    padding: 15px;
+  }
+
+  .description {
+    border-top: solid;
+    border-color: green;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    position:absolute;
+    top: 20rem;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.8;
+    overflow: scroll;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-size: 1.2rem;
+  }
+
+  .description p {
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+  }
+
+  .description p a {
+    color: white;
+  }
+
+  .description p a:hover {
+    color: green;
+  }
+
+  @media (max-width: 360px){
+    .logo h1 {
+      padding-right: 0;
+      padding-left: 10%;
+      align-items: center;
+    }
+    .titlebox {
+      position: absolute;
+      align-items: left;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .titlebox {
+      top: 5em;
+    }
+  }
+
+  @media (max-width: 710px) {
+    .titlebox {
+      font-size: 0.85rem;
+    }
+    .description {
+      top: 25rem;
+    }
+  }
+
+  @media (max-width: 810px){
+    .titlebox {
+    top: 5em;
+    }
+  }
